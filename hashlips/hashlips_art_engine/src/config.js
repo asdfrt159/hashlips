@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "SRC";
 const description = "Safe Road Club";
-const baseUri = "https://gateway.pinata.cloud/ipfs/QmYdR6qJCqMtdXxgVCFbTTDC4Vm5DfKMnQYD9CE4iCwenv";
+const baseUri = "https://gateway.pinata.cloud/ipfs/QmT45cMujQUVQe9ykdYMNavWamA4VdUVQsG382nDsszEVU";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 30,
     layersOrder: [
       { name: "Rarity" },
       { name: "Body" },
